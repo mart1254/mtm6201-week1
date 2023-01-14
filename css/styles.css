@@ -48,11 +48,111 @@ table {
 }
 
 
-/* css styles */
+/* =============================== My css styles =============================== */
 body {
-    background-color: pink;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+	color: #E6E6E6;
+    line-height: 1.5;
+	background-color: #222222;
 }
 
 .container {
-    background-color: purple;
+    margin: 0 auto;
+    width: 85%;
 }
+
+
+header .container {
+    background-color: #E6A82D;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 1rem;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h2 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  h4 {
+	display: block;
+	font-size: 1em;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+  }
+
+  .my-photo-container {
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 0.3rem;
+  }
+
+  .my-photo {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+  }
+
+  sup {
+	vertical-align: super;
+	font-size: smaller;
+  }
+
+  p {
+	margin-bottom: 1rem;
+  }
+
+  .intro-container::after {
+	content: "";
+	clear: both;
+	display: flex;
+  }
+
+
+  dl {
+	background-color: #E6A82D;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+  }
+
+  dt {
+	font-weight: 700;
+	font-size: 1.15rem;
+  }
+
+
+  
+
+
+
+
+
+
+/* Dominic Ty Martin */
